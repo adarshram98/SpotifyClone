@@ -37,7 +37,8 @@ function App() {
       spotify.getUserPlaylists().then(
         playlist=>
         dispatch({
-          type:"SET_PLAYLISTS"
+          type:"SET_PLAYLISTS",
+          playlist
         })
       )
     }

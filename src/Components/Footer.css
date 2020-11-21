@@ -1,7 +1,24 @@
 .footer{
     position: fixed;
+    display: flex;
     bottom: 0;
     height: 65px;
-    width: 100%;
-    background-color: cadetblue;
+    width: 96%;
+    background-color: #282828;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer__center{
+    flex:0.4;
+    align-items:center;
+    background-color: white;
+}
+.footer__left{
+    flex:0.3;
+    background-color: green;
+
+}
+.footer__right{
+    flex:0.3;
+    background-color: green;
 }
