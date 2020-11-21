@@ -11,14 +11,53 @@
 .footer__center{
     flex:0.4;
     align-items:center;
-    background-color: white;
+    /* background-color: white; */
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
 }
 .footer__left{
     flex:0.3;
-    background-color: green;
+    display: flex;
+    align-items:center;
+    color:white;
+    width: 300px;
 
+}
+.footer__songInfo >h4{
+    margin-bottom: 5px;
+}
+.footer__songInfo >p{
+    margin-bottom: 12px;
+}
+
+.footer__left >img{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-left:20px;
+    margin-right:10px;
 }
 .footer__right{
     flex:0.3;
-    background-color: green;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
 }
+.footer__green{
+    color: #1ed15e;
+}
+.footer__icon:hover,
+.footer__green:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer__right * .MuiSlider-root {
+    color: green;
+  }
